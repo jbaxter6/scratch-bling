@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2020_10_15_162503) do
   create_table "scratchers", force: :cascade do |t|
     t.string "item_name"
     t.string "item_description"
-    t.string "item_size"
+    t.string "item_size", default: [], array: true
     t.string "item_cost"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

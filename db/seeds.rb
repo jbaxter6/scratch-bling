@@ -13,7 +13,7 @@ Scratcher.destroy_all
     Scratcher.create(
         item_name: Faker::GreekPhilosophers.name,
         item_description: Faker::GreekPhilosophers.name,
-        item_size: "Small",
+        item_size: ["Small"],
         item_cost: Faker::Number.decimal(l_digits: 2)
     )
 }
@@ -22,7 +22,7 @@ Scratcher.destroy_all
     Scratcher.create(
         item_name: Faker::GreekPhilosophers.name,
         item_description: Faker::GreekPhilosophers.name,
-        item_size: "Medium",
+        item_size: ["Medium"],
         item_cost: Faker::Number.decimal(l_digits: 2)
     )
 }
@@ -31,7 +31,7 @@ Scratcher.destroy_all
     Scratcher.create(
         item_name: Faker::GreekPhilosophers.name,
         item_description: Faker::GreekPhilosophers.name,
-        item_size: "Large",
+        item_size: ["Large"],
         item_cost: Faker::Number.decimal(l_digits: 2)
     )
 }
