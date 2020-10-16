@@ -83,3 +83,8 @@ production:
   database: scratch_bling_production
   username: scratch_bling
   password: <%= ENV['SCRATCH_BLING_DATABASE_PASSWORD'] %>
+#   database: <%= ENV['RDS_DB_NAME'] %>
+#   username: <%= ENV['RDS_USERNAME'] %>
+#   password: <%= ENV['RDS_PASSWORD'] %>
+#   host: <%= ENV['RDS_HOSTNAME'] %>
+#   port: <%= ENV['RDS_PORT'] %>
