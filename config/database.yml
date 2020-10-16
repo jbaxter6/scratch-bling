@@ -24,7 +24,7 @@ default: &default
 development:
   <<: *default
 #   database: scratch_bling_development
-  database: database-1
+  database: db
   username: postgres
   password: johnny77
   host: database-1.coox7fxeogte.us-east-2.rds.amazonaws.com
